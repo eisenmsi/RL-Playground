@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rl-playground"
+version = "0.1.0"
+description = ""
+authors = ["Simon Eisenmann <simon.eisenmann@web.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+stable-baselines3 = "^2.2.1"
+gymnasium = {extras = ["classic-control"], version = "^0.29.1"}
+opencv-python = "^4.8.1.78"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
