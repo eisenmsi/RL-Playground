@@ -15,7 +15,7 @@ start = time.process_time()
 start_2 = time.time()
 
 # Train the model
-model.learn(total_timesteps=10_000)
+model.learn(total_timesteps=100_000)
 
 end = time.process_time()
 end_2 = time.time()
@@ -42,7 +42,7 @@ print(f"Maximum Episode Reward: {max_reward}")
 # Enjoy trained agent
 vec_env = model.get_env()
 obs = vec_env.reset()
-for i in range(1000):
+for i in range(10_000):
     action, _states = model.predict(obs, deterministic=True)
     obs, reward, done, info = vec_env.step(action)
     vec_env.render("human")
