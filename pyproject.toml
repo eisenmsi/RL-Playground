@@ -10,6 +10,8 @@ python = "^3.8"
 stable-baselines3 = "^2.2.1"
 gymnasium = {extras = ["mujoco"], version = "^0.29.1"}
 opencv-python = "^4.8.1.78"
+sb3-contrib = "^2.2.1"
+pygame = "^2.5.2"
 
 
 [build-system]
