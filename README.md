@@ -1,6 +1,6 @@
 # RL Playground
 
-This repository serves as a playground for experimenting with various Reinforcement Learning (RL) algorithms including TRPO, PPO, DDPG, TD3, and SAC. Different algorithms have been implemented and their performance along with training times have been measured for comparison. The project uses Stable Baselines3.
+This repository serves as a playground for experimenting with various Reinforcement Learning (RL) algorithms, including TRPO, PPO, DDPG, TD3, and SAC. Different algorithms have been implemented, and their performance, along with training times, have been measured for comparison. The project uses Stable Baselines3.
 
 ## Installation
 
@@ -11,7 +11,7 @@ To set up this project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone repository
+   git clone https://github.com/eisenmsi/RL-Playground.git
    cd RL-Playground
 
 2. Install the dependencies using poetry:
